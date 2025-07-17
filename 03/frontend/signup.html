@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 - 스마트팜</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><h1>스마트팜</h1></a>
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li><a href="about.html">소개</a></li>
+                <li><a href="signup.html">회원가입</a></li>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="profile.html">프로필</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="signup">
+            <div class="container">
+                <h2>스마트팜 계정 생성</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="username">사용자 이름:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">이메일:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">비밀번호:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">비밀번호 확인:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                    <button type="submit">회원가입</button>
+                </form>
+                <p>이미 계정이 있으신가요? <a href="login.html">여기에서 로그인하세요</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 스마트팜. 모든 권리 보유.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
